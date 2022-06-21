@@ -1,0 +1,23 @@
+
+.sidebar-icons{
+    
+    width: 5%;
+    position: sticky;
+    height: 5vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.text{
+    margin-left: 350px;
+    width: 50%;
+   
+   
+}
+.button{
+  
+  width: 100px;
+}

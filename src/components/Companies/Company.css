@@ -1,0 +1,43 @@
+.details-company{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 150px;
+  
+}
+.style-data{
+    background-color: rgb(243, 243, 231);
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    padding: 40px;
+}
+.company-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 170px;
+}
+.company-container1>p{
+    border: 1px solid black;
+     padding: 12px;
+    cursor: pointer;
+}
+.company-container1 > p.active{
+    background-color: black;
+    color: white;
+
+}
+.company-container1>button{
+    background-color: transparent;
+     padding: 12px;
+     margin-bottom: 15px;
+      border: 1px solid black;
+}
+.company-container1>button:hover{
+    background-color: black;
+    color: white;
+}
